@@ -1,6 +1,6 @@
 # Reddit Keyword Tracker
 
-This beginner-friendly data project scrapes Reddit posts from specified subreddits and counts how often user-defined keywords appear. 
+Trace scrapes Reddit posts from specified subreddits and counts how often user-defined keywords appear. 
 It outputs results to a CSV and generates a bar chart of keyword popularity.
 
 ## 🔧 Tech Stack
@@ -51,9 +51,6 @@ python reddit_keyword_tracker.py
 ## 🔧 Future Ideas
 
 - Time-based trend tracking
-- Scrape comments too
-- Web or Streamlit frontend
+- Scrape comments 
+- Web frontend
 
----
-
-Built for Volt Investment Holdings application.
