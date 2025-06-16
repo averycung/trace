@@ -3,13 +3,13 @@
 Trace scrapes Reddit posts from specified subreddits and counts how often user-defined keywords appear. 
 It outputs results to a CSV and generates a bar chart of keyword popularity.
 
-## 🔧 Tech Stack
+## Tech Stack
 - Python
 - PRAW (Reddit API)
 - pandas
 - matplotlib
 
-## 🚀 How It Works
+## How It Works
 1. User defines subreddits and keywords in the script.
 2. Script fetches 300 latest posts from each subreddit.
 3. Counts keyword mentions across all post titles and texts.
@@ -17,7 +17,7 @@ It outputs results to a CSV and generates a bar chart of keyword popularity.
    - `reddit_mentions.csv`: Table of keyword frequencies
    - `reddit_mentions_chart.png`: Bar chart visualization
 
-## 📦 How to Run
+## Getting Started
 
 1. Install dependencies:
 
@@ -43,12 +43,12 @@ reddit = praw.Reddit(
 python reddit_keyword_tracker.py
 ```
 
-## 📈 Sample Output
+## Sample Output
 
 - `reddit_mentions.csv`: keyword count table
 - `reddit_mentions_chart.png`: chart for easy visualization
 
-## 🔧 Future Ideas
+## Future Ideas
 
 - Time-based trend tracking
 - Scrape comments 
